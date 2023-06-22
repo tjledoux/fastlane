@@ -533,7 +533,7 @@ module Spaceship
 
           if try_upgrade_2fa_later(response)
             store_cookie
-            fetch_olympus_session
+            # fetch_olympus_session
             return true
           end
 
